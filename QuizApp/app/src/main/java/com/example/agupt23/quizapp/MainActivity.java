@@ -103,8 +103,10 @@ public class MainActivity extends AppCompatActivity {
         //Check Answer of Question 4
         boolean isDelhiChecked = delhiCheckBox.isChecked();
         boolean isWashingtonChecked = washingtonCheckBox.isChecked();
+        boolean isMumbaiChecked = mumbaiCheckBox.isChecked();
+        boolean isPhuketChecked = phuketCheckBox.isChecked();
 
-        if (isDelhiChecked && isWashingtonChecked) {
+        if (isDelhiChecked && isWashingtonChecked && !isMumbaiChecked && !isPhuketChecked) {
             userFinalScore++;
         }
 
@@ -132,8 +134,10 @@ public class MainActivity extends AppCompatActivity {
         //Check Answer of question 8
         boolean isNarayanMurthyChecked = narayanMurthyCheckBox.isChecked();
         boolean isNilekaniChecked = nilekaniCheckBox.isChecked();
+        boolean isRanbirChecked = ranbirCheckBox.isChecked();
+        boolean isBinnyChecked = binnyCheckBox.isChecked();
 
-        if (isNarayanMurthyChecked && isNilekaniChecked) {
+        if (isNarayanMurthyChecked && isNilekaniChecked && !isRanbirChecked && !isBinnyChecked) {
             userFinalScore++;
         }
 
