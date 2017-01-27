@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/MasterLinearLayoutStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_1" />
+
+            <RadioGroup
+                android:id="@+id/question_1_radio_group"
+                style="@style/RadioButtonStyle"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/trump_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/donald_trump" />
+
+                <RadioButton
+                    android:id="@+id/obama_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/barrack_obama" />
+
+                <RadioButton
+                    android:id="@+id/hillary_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/hillary_clinton" />
+
+                <RadioButton
+                    android:id="@+id/putin_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/vlamidir_putin" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_2" />
+
+            <ImageView
+                style="@style/ImageViewStyle"
+                android:src="@drawable/photo1" />
+
+            <RadioGroup
+                android:id="@+id/question_2_radio_group"
+                style="@style/RadioButtonStyle"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/modi_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/narender_modi" />
+
+                <RadioButton
+                    android:id="@+id/obama_ques2_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/barrack_obama" />
+
+                <RadioButton
+                    android:id="@+id/amitabh_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/amitabh_bachchan" />
+
+                <RadioButton
+                    android:id="@+id/arvind_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/arvind_kejriwal" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_3" />
+
+            <EditText
+                android:id="@+id/facebook_ceo_answer"
+                style="@style/EditTextStyle"
+                android:hint="@string/edittext_hint" />
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_4" />
+
+            <CheckBox
+                android:id="@+id/delhi_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/delhi" />
+
+            <CheckBox
+                android:id="@+id/washington_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/washington_dc" />
+
+            <CheckBox
+                android:id="@+id/mumbai_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/mumbai" />
+
+            <CheckBox
+                android:id="@+id/phuket_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/phuket" />
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_5" />
+
+            <Spinner
+                android:id="@+id/microsoft_founder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_6" />
+
+            <Spinner
+                android:id="@+id/apple_founder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_7" />
+
+            <RadioGroup
+                android:id="@+id/question_7_radio_group"
+                style="@style/RadioButtonStyle"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/theresa_april_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/theresa_april" />
+
+                <RadioButton
+                    android:id="@+id/theresa_may_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/theresa_may" />
+
+                <RadioButton
+                    android:id="@+id/theresa_june_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/theresa_june" />
+
+                <RadioButton
+                    android:id="@+id/theresa_july_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/theresa_july" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_8" />
+
+            <CheckBox
+                android:id="@+id/murthy_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/n_r_narayana_murthy" />
+
+            <CheckBox
+                android:id="@+id/ranbir_kapoor_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/ranbir_kapoor" />
+
+            <CheckBox
+                android:id="@+id/nandan_nilekani_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/nandan_nilekani" />
+
+            <CheckBox
+                android:id="@+id/binny_bansal_checkbox"
+                style="@style/CheckBoxStyle"
+                android:text="@string/binny_bansal" />
+
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_9" />
+
+            <RadioGroup
+                android:id="@+id/question_9_radio_group"
+                style="@style/RadioButtonStyle"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/riodejaneiro_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/rio_de_janeiro" />
+
+                <RadioButton
+                    android:id="@+id/salvador_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/salvador" />
+
+                <RadioButton
+                    android:id="@+id/saopaulo_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/sao_paulo" />
+
+                <RadioButton
+                    android:id="@+id/manaus_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/manaus" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View style="@style/DividerViewStyle" />
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="@string/question_10" />
+
+            <RadioGroup
+                android:id="@+id/question_10_radio_group"
+                style="@style/RadioButtonStyle"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/colombo_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/colombo" />
+
+                <RadioButton
+                    android:id="@+id/galle_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/galle" />
+
+                <RadioButton
+                    android:id="@+id/kandy_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/kandy" />
+
+                <RadioButton
+                    android:id="@+id/madras_radio_button"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/madras" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="calculateResult"
+            android:text="@string/submit_answers" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="resetAnswers"
+            android:text="@string/reset_answers" />
+
+    </LinearLayout>
+</ScrollView>
